@@ -1,0 +1,48 @@
+:root{
+    --mainColor:#8B008B;
+}
+header{
+    background-color: var(--mainColor);
+}
+.logo{
+    width: 152px;
+    
+}
+.container{
+   width: 95%;
+   margin: 0 auto;
+   max-width: 1200px;
+}
+
+
+.container-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.listItem{
+    margin-left: 2em;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+.activeItem{
+    color:orange;
+    border-bottom: .1em double #fff;
+}
+.icon{
+    color:#fff;
+    font-size: 1.5em !important;
+    margin-right:1.5em ;
+    margin-left: 1em;
+}
+.insta{
+   
+    margin-top: 25px;
+    margin-bottom: 35px;
+    
+
+}
+.headings{
+    margin-top: 70px;
+}
